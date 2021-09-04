@@ -1,0 +1,379 @@
+
+body {
+    background-color: #1F2326;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    width: 1920px;
+    height: 720px;
+    overflow: hidden;
+}
+.circles {
+    z-index: 2;
+}
+.circles span:nth-child(1) {
+    width: 1000px;
+    height: 1000px;
+    background-color:#FF4656;
+    border-radius: 50%;
+    position: absolute;
+    top: -400px;
+    left: -100px;
+}
+.circles span:nth-child(2){
+    width: 30px;
+    height: 30px;
+    background-color:#FF4656 ;
+    border-radius: 50%;
+    position: absolute;
+    right: 200px;
+    top: 35px;
+}
+.circles span:nth-child(3){
+    width:150px ;
+    height:150px ;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+    position: absolute;
+    right: 110px;
+    top: 100px;
+
+}
+.circles span:nth-child(4){
+    width: 60px;
+    height: 60px;
+    background-color: #505155;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 270px;
+}
+.circles span:nth-child(5){
+    width:35px ;
+    height:35px ;
+    background-color:#505155 ;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+    bottom:100px ;
+}
+.circles span:nth-child(6){
+    width: 280px;
+    height: 280px;
+    background-color:#EFEFEF ;
+    border-radius: 50%;
+    position: absolute;
+    left: 120px;
+    bottom: -140px;
+}
+.circles span:nth-child(7){
+    width:550px ;
+    height: 550px;
+    background-color:#292C31 ;
+    border-radius: 50%;
+    position: absolute;
+    right:-200px ;
+    bottom: -200px;
+}
+.general {
+    z-index: 3;
+    width: 1600px;
+    height: 800px;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    border-radius: 20px;
+}
+header {
+    height: 7%;
+    background-color: #1F2326;
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+}
+.riot {
+    width: 45px;
+    margin-left: 30px;
+}
+.white-line-in-header {
+    height: 30px;
+    width: 1px;
+    background-color: white;
+    margin-left: 29px;
+}
+.logo {
+    width: 40px;
+    height: 20px;
+    margin-left: 20px;
+}
+nav {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.account {
+    justify-content: space-around;
+    width: 80px;
+    display: flex;
+    margin-left: 500px;
+}
+.player {
+    border-radius: 50%;
+    height: 20px;
+}
+article {
+    height: 86%;
+    background-color: #FF4656;
+}
+.background {
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    opacity: 20%;
+    position: absolute;
+    width: 1600px;
+    height: 688px;
+}
+.agents {
+    position: absolute;
+    width: 50px;
+    left: 7%;
+    top: 20%;
+}
+
+.agent1 {
+    background-color: #1F2326;
+    width: 230px;
+    height: 450px;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    border-top-left-radius: 20px;
+    transition: all 0.5s ease ;
+    border: 1px solid black;
+}
+.art_agent {
+    width: 232px;
+    height: 450px;
+    position: absolute;
+}
+.name_agent {
+    position: absolute;
+    width: 30px;
+    top: 4%;
+    left: -12px;
+    transition: all 0.5s ease ;
+}
+.from_agent {
+    position: absolute;
+    width: 13px;
+    top: 4%;
+    left: 10%;
+}
+.box_with_abilities {
+    width: 230px;
+    height: 50px;
+    background-color: #1F2326;
+    top: 95%;
+    position: absolute;
+    left: 6%;
+    border: solid 1px white;
+    transition: all 0.5s ease ;
+}
+.box_with_abilities:hover {
+    background-color: white;
+    
+    border: solid 1px black;
+}
+.abilities_agent1 {
+    width: 100%;
+    height: 100%;
+    background: url(assets/abilities1.png) center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.abilities_agent1:hover {
+    background: url(assets/Abilities1black.png) center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.abilities_agent2 {
+    width: 100%;
+    height: 100%;
+    background: url(assets/abilities2.png) center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.abilities_agent2:hover {
+    background: url(assets/Abilities2black.png) center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    
+}
+.abilities_agent3 {
+    width: 100%;
+    height: 100%;
+    background: url(assets/abilities3.png) center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.abilities_agent3:hover {
+    background: url(assets/Abilities3black.png) center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.abilities_agent4 {
+    width: 100%;
+    height: 100%;
+    background: url(assets/abilities4.png) center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.abilities_agent4:hover {
+    background: url(assets/Abilities4black.png) center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.agent1:hover{
+    background-color: #F8F8F8;
+    border: 1px solid black;
+}
+.agent2:hover{
+    background-color: #F8F8F8;
+    border: 1px solid black;
+}
+.agent3:hover{
+    background-color: #F8F8F8;
+    border: 1px solid black;
+}
+.agent4:hover{
+    background-color: #F8F8F8;
+    border: 1px solid black;
+}
+.name_agent:hover {
+    transform: translateX(-30px);
+}
+.agent2 {
+    background-color: #1F2326;
+    width: 230px;
+    height: 450px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    border-top-left-radius: 20px;
+    transition: all 0.5s ease ;
+    border: 1px solid black;
+}
+.agent3 {
+    background-color: #1F2326;
+    width: 230px;
+    height: 450px;
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    border-top-left-radius: 20px;
+    transition: all 0.5s ease ;
+    border: 1px solid black;
+}
+.agent4 {
+    background-color: #1F2326;
+    width: 230px;
+    height: 450px;
+    position: absolute;
+    left: 80%;
+    top: 15%;
+    border-top-left-radius: 20px;
+    transition: all 0.5s ease ;
+    border: 1px solid black;
+}
+footer {
+    height: 7%;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container1 {
+    background-color: #F8F8F8;
+    width: 400px;
+    height: 120px;
+    position: relative;
+    top: -150%;
+    border-top-left-radius: 20px;
+    border: 1px solid black;
+    left: -2%;
+}
+.container2 {
+    background-color: #F8F8F8;
+    width: 400px;
+    height: 120px;
+    position: relative;
+    bottom: 360%;
+    border-top-left-radius: 20px;
+    border: 1px solid black;
+    left: 28%;
+}
+.container3 {
+    background-color: #F8F8F8;
+    width: 400px;
+    height: 120px;
+    position: relative;
+    bottom: 570%;
+    border-top-left-radius: 20px;
+    border: 1px solid black;
+    left: 58%;
+}
+.first_line {
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #C4C4C4;
+}
+.second_line {
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.third_line {
+    width: 200px;
+    font-weight: normal;
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.red_square {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background-color: #FF4656;
+    bottom: 0;
+    left: 65%;
+}
+.icons {
+    position: absolute;
+    width: 100px;
+    bottom: 15%;
+    left: 70%;
+}
+.slider {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-color: #F8F8F8;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    left: 88%;
+    top: 84%;
+}
+.slider_poligon {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
